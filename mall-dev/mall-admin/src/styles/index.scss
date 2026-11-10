@@ -1,0 +1,9 @@
+@import './variables';
+@import './reset';
+@import './element-overrides';
+
+.el-button--primary { --el-button-bg-color: var(--color-primary); --el-button-border-color: var(--color-primary); --el-button-hover-bg-color: var(--color-primary-light); --el-button-hover-border-color: var(--color-primary-light); }
+.el-card, .card-stat { border: 1px solid #e4ece5; border-radius: 14px; box-shadow: var(--shadow-card); }
+.card-stat { min-height: 126px; background: #fff; padding: 20px; margin-bottom: 16px; }
+.layout-main .bg-white { border: 1px solid #e4ece5; border-radius: 14px; box-shadow: var(--shadow-card); }
+.layout-main .el-input__wrapper:focus-within { box-shadow: 0 0 0 1px var(--color-primary) inset; }

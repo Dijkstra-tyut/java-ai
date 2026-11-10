@@ -1,0 +1,13 @@
+# Run with --spring.profiles.active=dev,local when RabbitMQ and Elasticsearch are absent.
+# Catalog, authentication, cart, and product browsing remain available.
+mall:
+  rabbitmq:
+    listeners-enabled: false
+  elasticsearch:
+    enabled: false
+management:
+  health:
+    rabbit:
+      enabled: false
+    elasticsearch:
+      enabled: false

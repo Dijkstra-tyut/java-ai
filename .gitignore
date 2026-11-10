@@ -1,0 +1,9 @@
+/README.md
+**/.serena/
+**/.idea/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.env
+**/.env.*
+!**/.env.example
